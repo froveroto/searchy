@@ -1,11 +1,38 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+      Favoritos
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+
+  <ion-card class="adv-map">
+    <div style="position: relative">
+      <img src="assets/images/home/bar3.jpg">
+
+      <ion-fab right top>
+        <button ion-fab class="fab-map">
+          <ion-icon name="md-star"></ion-icon>
+        </button>
+      </ion-fab>
+    </div>  
+    <ion-item>
+      <ion-icon color="subtle" large item-start name='md-flask'></ion-icon>
+      <h2>Restaurante no Fim do Universo</h2>
+      <p>R. do Outro Mundo 1784, Vila Desconhecida - ??</p>
+    </ion-item>
+    <ion-item actions>
+      <span ion-text item-start class="item-bold">30 min</span>
+      <span ion-text item-start color="subtle">24.6 km</span>
+      <button ion-button color="danger" clear item-end icon-start>
+        <ion-icon name='navigate'></ion-icon>
+        Start
+      </button>
+    </ion-item>
+
+  </ion-card>
+  
 
 </ion-content>

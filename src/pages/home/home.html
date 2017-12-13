@@ -5,13 +5,85 @@
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to SearchY!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+  <ion-searchbar [(ngModel)]="myInput" placeholder="E lá vamos nós!" id="search_box_home" class="search_box">
+  </ion-searchbar>
+  <ion-item>
+    <ion-card>
+      <img src="assets/images/home/bar1.jpg">
+      <ion-fab right top>
+        <button ion-fab>
+          <ion-icon name="navigate"></ion-icon>
+        </button>
+      </ion-fab>
+      <ion-item>
+        <ion-icon name="md-wine" item-left large></ion-icon>
+        <h2>Institute of Fine Cocktails</h2>
+        <p>Av. Hop 534, Mooca - SP</p>
+      </ion-item>
+      <ion-item>
+        <span item-left>2 min</span>
+        <span item-right>1 km</span>
+      </ion-item>
+    </ion-card>
+  </ion-item>
+
+  <ion-item>
+    <ion-card>
+      <img src="assets/images/home/bar2.jpg">
+      <ion-fab right top>
+        <button ion-fab>
+          <ion-icon name="navigate"></ion-icon>
+        </button>
+      </ion-fab>
+      <ion-item>
+        <ion-icon name="ios-beer" item-left large></ion-icon>
+        <h2>Blue Pub</h2>
+        <p>Rua Flores 53, Jundiai - SP</p>
+      </ion-item>
+      <ion-item>
+        <span item-left>12 min</span>
+        <span item-right>2.6 km</span>
+      </ion-item>
+    </ion-card>
+  </ion-item>
+
+  <ion-item>
+    <ion-card>
+      <img src="assets/images/home/bar4.jpg">
+      <ion-fab right top>
+        <button ion-fab>
+          <ion-icon name="navigate"></ion-icon>
+        </button>
+      </ion-fab>
+      <ion-item>
+        <ion-icon name="md-beer" item-left large></ion-icon>
+        <h2>Chegando em Casa</h2>
+        <p>Avenida dos Imigrantes 99, Colonia - SP</p>
+      </ion-item>
+      <ion-item>
+        <span item-left>8 min</span>
+        <span item-right>3.4 km</span>
+      </ion-item>
+    </ion-card>
+  </ion-item>
+
+  <ion-item>
+    <ion-card>
+      <img src="assets/images/home/bar3.jpg">
+      <ion-fab right top>
+        <button ion-fab>
+          <ion-icon name="navigate"></ion-icon>
+        </button>
+      </ion-fab>
+      <ion-item>
+        <ion-icon name="md-flask" item-left large></ion-icon>
+        <h2>Restaurante no Fim do Universo</h2>
+        <p>R. do Outro Mundo 1784, Vila Desconhecida - ??</p>
+      </ion-item>
+      <ion-item>
+        <span item-left>30 min</span>
+        <span item-right>24.6 km</span>
+      </ion-item>
+    </ion-card>
+  </ion-item>
 </ion-content>
