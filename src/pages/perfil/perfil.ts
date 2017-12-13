@@ -10,10 +10,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-feed',
-  templateUrl: 'feed.html',
+  selector: 'page-perfil',
+  templateUrl: 'perfil.html',
 })
-export class FeedPage {
+export class PerfilPage {
   public user_name:string = "Mind por interpolacao";
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
@@ -24,7 +24,7 @@ export class FeedPage {
 
   ionViewDidLoad() {
     //this.somaDoisNumeros(10, 99);
-    console.log('ionViewDidLoad FeedPage');
+    console.log('ionViewDidLoad PerfilPage');
   }
 
 }
