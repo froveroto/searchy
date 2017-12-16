@@ -9,7 +9,7 @@ import { IntroPage } from '../pages/intro/intro';
 @Component({
   templateUrl: 'app.html'
 })
-export class MyApp {
+export class SearchY {
   rootPage:any = IntroPage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {

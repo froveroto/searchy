@@ -1,7 +1,7 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
-import { MyApp } from './app.component';
+import { SearchY } from './app.component';
 
 import { FavoritesPage } from '../pages/favorites/favorites';
 import { ContactPage } from '../pages/contact/contact';
@@ -15,7 +15,7 @@ import { PerfilPageModule } from '../pages/perfil/perfil.module';
 
 @NgModule({
   declarations: [
-    MyApp,
+    SearchY,
     FavoritesPage,
     ContactPage,
     HomePage,
@@ -23,13 +23,13 @@ import { PerfilPageModule } from '../pages/perfil/perfil.module';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
+    IonicModule.forRoot(SearchY),
     PerfilPageModule,
     IntroPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    MyApp,
+    SearchY,
     FavoritesPage,
     ContactPage,
     HomePage,
