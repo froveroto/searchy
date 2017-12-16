@@ -1,6 +1,6 @@
 {
   "name": "searchy",
-  "app_id": "",
+  "app_id": "1790ed6b",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
